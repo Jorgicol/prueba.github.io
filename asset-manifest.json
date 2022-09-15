@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/main.27d5ecdb.chunk.css",
-    "main.js": "/main.f84c6a88.chunk.js",
-    "main.js.map": "/main.f84c6a88.chunk.js.map",
-    "runtime-main.js": "/runtime-main.7f074eb9.js",
-    "runtime-main.js.map": "/runtime-main.7f074eb9.js.map",
-    "2.a39cca20.chunk.js": "/2.a39cca20.chunk.js",
-    "2.a39cca20.chunk.js.map": "/2.a39cca20.chunk.js.map",
-    "3.4124a026.chunk.js": "/3.4124a026.chunk.js",
-    "3.4124a026.chunk.js.map": "/3.4124a026.chunk.js.map",
+    "main.css": "/prueba.github.io/main.27d5ecdb.chunk.css",
+    "main.js": "/prueba.github.io/main.f84c6a88.chunk.js",
+    "main.js.map": "/prueba.github.io/main.f84c6a88.chunk.js.map",
+    "runtime-main.js": "/prueba.github.io/runtime-main.7f074eb9.js",
+    "runtime-main.js.map": "/prueba.github.io/runtime-main.7f074eb9.js.map",
+    "2.a39cca20.chunk.js": "/prueba.github.io/2.a39cca20.chunk.js",
+    "2.a39cca20.chunk.js.map": "/prueba.github.io/2.a39cca20.chunk.js.map",
+    "3.4124a026.chunk.js": "/prueba.github.io/3.4124a026.chunk.js",
+    "3.4124a026.chunk.js.map": "/prueba.github.io/3.4124a026.chunk.js.map",
     "index.html": "/index.html",
-    "main.27d5ecdb.chunk.css.map": "/main.27d5ecdb.chunk.css.map",
+    "main.27d5ecdb.chunk.css.map": "/prueba.github.io/main.27d5ecdb.chunk.css.map",
     "2.a39cca20.chunk.js.LICENSE.txt": "/2.a39cca20.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "mainruntime-main.7f074eb9.js",
-    "main2.a39cca20.chunk.js",
-    "main.27d5ecdb.chunk.css",
-    "main.f84c6a88.chunk.js"
+    "prueba.github.iomainruntime-main.7f074eb9.js",
+    "prueba.github.iomain2.a39cca20.chunk.js",
+    "prueba.github.iomain.27d5ecdb.chunk.css",
+    "prueba.github.iomain.f84c6a88.chunk.js"
   ]
 }
