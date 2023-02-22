@@ -7,3 +7,23 @@ DeprecationWarning: executable_path has been deprecated, please pass in a Servic
   
 DeprecationWarning: capabilities and desired_capabilities have been deprecated, please pass in a Service object
   driver = webdriver.Firefox(options=options,  service = service, desired_capabilities=caps)
+
+
+Service.__init__() got an unexpected keyword argument 'DesiredCapabilities'
+
+
+class FirefoxService(
+    executable_path: str = DEFAULT_EXECUTABLE_PATH,
+    port: int = 0,
+    service_args: List[str] | None = None,
+    log_path: str | None = None,
+    env: Mapping[str, str] | None = None
+)
+A Service class that is responsible for the starting and stopping of geckodriver.
+
+:param executable_path: install path of the geckodriver executable, defaults to geckodriver.
+:param port: Port for the service to run on, defaults to 0 where the operating system will decide.
+:param service_args: (Optional) List of args to be passed to the subprocess when launching the executable.
+:param log_path: (Optional) File path for the file to be opened and passed as the subprocess stdout/stderr handler,
+    defaults to geckodriver.log.
+:param env: (Optional) Mapping of environment variables for the new process, defaults to os.environ.
