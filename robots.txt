@@ -1,3 +1,5 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+  driver = webdriver.Firefox(options=options,  executable_path='geckodriver.exe', desired_capabilities=caps)
