@@ -27,3 +27,10 @@ A Service class that is responsible for the starting and stopping of geckodriver
 :param log_path: (Optional) File path for the file to be opened and passed as the subprocess stdout/stderr handler,
     defaults to geckodriver.log.
 :param env: (Optional) Mapping of environment variables for the new process, defaults to os.environ.
+
+
+
+
+Failed to execute query. Error: Invalid column name 'GS Residual Positions Policy'.
+
+select * from [dbo].[metadata] WHERE control_name = "GS Residual Positions Policy"
