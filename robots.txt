@@ -1,3 +1,29 @@
+
+
+
+
+
+
+
+
+
+
+Message: Service geckodriver.exe unexpectedly exited. Status code was: 3221226505
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
