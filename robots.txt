@@ -1,5 +1,26 @@
 
 
+import PyPDF2
+
+def extract_page(input_pdf_path, output_pdf_path, page_number):
+    with open(input_pdf_path, 'rb') as input_file:
+        reader = PyPDF2.PdfReader(input_file)
+
+        if page_number < 1 or page_number > len(reader.pages):
+            raise ValueError(f"Invalid page number. PDF has {reader.numPages} pages.")
+
+        # Create a new PDF with the desired page
+        writer = PyPDF2.PdfWriter()
+        writer.add_page(reader.pages[page_number - 1])
+
+        with open(output_pdf_path, 'wb') as output_file:
+            writer.write(output_file)
+
+input_pdf_path = 'pdfs/MM_Annual_Report_2021.pdf'
+output_pdf_path = 'MM_Annual_Report_2021_153.pdf'
+page_number = 153  # The page you want to extract (1-based index)
+
+extract_page(input_pdf_path, output_pdf_path, page_number)
 
 
 
